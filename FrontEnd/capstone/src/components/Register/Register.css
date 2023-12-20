@@ -1,0 +1,197 @@
+
+.containerrr{
+    margin-top:200px;
+    margin-left:28%;
+    background-color:white;
+    width:48%;
+    border:border;
+    border-radius:15px;
+    box-shadow:0px 0px 5px gray;
+    position: relative;
+    top:-140px;
+}
+
+
+
+
+#hov{
+    display: inline-block;
+    width:220px;
+    margin-top: 5%;
+    position: relative;
+    float: right;
+}
+
+a:link{
+    text-decoration: none;
+    color:#74ebd5;
+}
+a:hover{
+    color:#74ebd5;
+}
+
+a:visited{
+    color:#7987c6;
+}
+.h44{
+    margin-left:28%;
+    font-size:20px;
+    font-weight: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity:0.9;
+}
+
+.h111{
+    font-family: "Arial";
+    font-size:18px;
+    margin-left:30%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    opacity: 0.68;
+
+}
+
+input{
+    font-size: 17px;
+}
+
+input:focus {
+    border: 1px solid #7987c6;
+  }
+
+.but_style{
+    width: 40%;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:27%;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-image: -moz-linear-gradient(110deg,  #1A2930 , #487184);
+    background-image: -ms-linear-gradient(110deg,  #1A2930 , #487184);
+    background-image: -o-linear-gradient(110deg,  #1A2930 , #487184);
+    background-image: -webkit-linear-gradient(110deg,  #1A2930 , #487184);
+    background-image: linear-gradient(110deg,  #1A2930 , #487184);
+}
+
+.but_style:hover{
+    cursor: pointer;
+    color:rgb(74, 70, 64);
+   
+}
+#genderdiv{
+  margin-top:4%;
+  margin-bottom: -2%;
+  margin-left: 1%;
+}
+#genderlabel{
+  margin-left:20%;
+  width:500px;
+    height:50px;
+  opacity: 0.8;
+    font-size: 22px;
+}
+
+.hrrr{
+    margin-left:10%;
+    opacity: 0.4;
+    
+}
+
+#labels{
+  margin-left:1.5%;
+  margin-right:5%;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.check_styles{
+  margin-left:2.8%;
+  height:15px;
+  width:25px;
+}
+
+.inp_styles{
+
+    width:500px;
+    height:50px;
+    margin-left:20%;
+    margin-top:4%;
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(236, 243, 243);
+    text-indent:5%;
+
+}
+
+
+#brandname2{
+  margin-left:40px;
+  margin-top:20px;
+  font-size:30px;
+  color:black;
+  opacity: 0.85;
+  
+}
+
+
+#tagline2{
+  margin-left:90px;
+  margin-top:10px;
+  font-size:20px;
+  color:black;
+  opacity: 0.85;
+  
+}
+
+#toppr{
+  display: inline-block;
+  width:360px;
+  
+}
+
+
+
+.bodyy {
+    background-image: linear-gradient(to right,white,#a2bed5);
+    backdrop-filter: blur(15px);
+    margin-top:0px;
+    -webkit-animation: bgslide2 2.8s forwards;
+            animation: bgslide2 2.8s forwards;
+  }
+
+
+  @-webkit-keyframes bgslide2 {
+    from {
+      left: -100%;
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      left: -1%;
+      width: 100%;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bgslide2 {
+    from {
+      left: -100%;
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      left: -0.1%;
+      width: 100%;
+      opacity: 1;
+    }
+  }
